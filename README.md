@@ -1,6 +1,6 @@
 # Merge an entity in JPA
 
-This project uses ([Quarkus](https://quarkus.io/))
+This project uses [Quarkus](https://quarkus.io/)
 
 When a parent entity whith three childs (oneToMany relationship)  (1,2,3) and i want to update with (1,2,5), it must update 1 and 2, insert 5, and remove 3. 
 
